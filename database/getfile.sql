@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2022 at 09:49 PM
+-- Generation Time: Jul 31, 2022 at 08:41 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -26,7 +26,6 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `cart`
 --
-
 CREATE Database getfile;
 
 CREATE TABLE `cart` (
@@ -54,11 +53,7 @@ INSERT INTO `cart` (`ID`, `getfileID`, `productName`, `productPrice`, `getImage`
 (87, 130, 'Qifeng Kids', '100', 'shoe kids2.jpg', '30 ', 'Shoes', 'Blue ', 3, 'ali.zaitoun1999@gmail.com', 'checkout'),
 (88, 74, 'Lacoste ', '75', 'clockhandMan2.jpg', '4 ', 'Accessories', 'Black ', 10, 'ali.zaitoun1999@gmail.com', 'checkout'),
 (90, 81, 'Nike', '75', 'AJ6844-004_sivasdescalzo-nike-W_NIKE_JOYRIDE_OPTIK-1565703447-1.jpg', '41 ', 'Shoes', 'Black ', 3, 'ali.zaitoun1999@gmail.com', 'checkout'),
-(91, 122, 'Kids Pants1', '50', 'pants kids2.jpg', 'L ', 'Pants', 'Yellow ', 2, 'ali.zaitoun1999@gmail.com', ''),
-(92, 102, 'Pants Woman', '110', 'Gothic-Pants-Plaid1.jpg', 'L ', 'Pants', 'Gray ', 3, '21830424@students.liu.edu.lb', 'checkout'),
-(93, 117, 'Woman Shoes4', '200', 'shoes w1.jpg', '37 ', 'Shoes', 'White ', 3, '21830424@students.liu.edu.lb', 'checkout'),
-(94, 92, 'Shirts', '30', 'shirts6.jpg', 'L ', 'Shirts', 'Red ', 3, '21830424@students.liu.edu.lb', 'checkout'),
-(95, 117, 'Woman Shoes4', '200', 'shoes w1.jpg', '39 ', 'Shoes', 'White ', 3, '21830424@students.liu.edu.lb', '');
+(91, 122, 'Kids Pants1', '50', 'pants kids2.jpg', 'L ', 'Pants', 'Yellow ', 2, 'ali.zaitoun1999@gmail.com', '');
 
 -- --------------------------------------------------------
 
@@ -275,8 +270,9 @@ CREATE TABLE `loginpage` (
 --
 
 INSERT INTO `loginpage` (`name`, `email`, `password`, `typeofuser`, `activated`, `security_cod`, `fileName`, `fileSize`, `fileLocation`, `fileType`) VALUES
-('Ali zaitoun', '21830424@students.liu.edu.lb', '123', 'user', 1, '0c16144637d30e17f91a7ed39c3e7cbc', 'Ali zaitoun.png', 4032, 'C:\\xampp\\tmp\\php41EE.tmp', 'image/png'),
-('admin', 'ali.zaiton2005@gmail.com', '123', 'admin', 1, '4f0d83c5f769a55864fe85faf0d975f2', 'ali admin.jpeg', 44850, 'C:\\xampp\\tmp\\php81C6.tmp', 'image/jpeg'),
+('aki', '21830424@students.liu.edu.lb', '123', 'user', 1, '36c412896acf7f84d3d00b35a3bcb4e2', 'aki.png', 220684, 'C:\\xampp\\tmp\\php87.tmp', 'image/png'),
+('abdelkarim hamed', 'abdelkarimhamd@gmail.com', 'abdelkarim1998', 'user', 1, 'e2575a437fecabba59a0485cb936ba06', 'abdelkarim hamed.jpeg', 186808, 'C:\\xampp\\tmp\\php380B.tmp', 'image/jpeg'),
+('a', 'ali.zaiton2005@gmail.com', '123', 'admin', 1, '2a3b3f76313e40046da1f94069d63c37', 'a.jpeg', 186808, 'C:\\xampp\\tmp\\phpE78F.tmp', 'image/jpeg'),
 ('ahmad', 'ali.zaitoun1999@gmail.com', '78956551', 'user', 1, '60b8181211c1801aef8ee8b987baa572', 'caps kid2.jpg', 4938, 'C:\\xampp\\tmp\\php9EC1.tmp', 'image/jpeg');
 
 -- --------------------------------------------------------
@@ -319,9 +315,7 @@ CREATE TABLE `wishlist` (
 
 INSERT INTO `wishlist` (`ID`, `brand`, `price`, `imageName`, `IDLogin`, `IDproduct`) VALUES
 (24, 'Woman Shoes4', '200', 'shoes w1.jpg', 'ali.zaitoun1999@gmail.com', 117),
-(25, 'Shoes Kids1', '150', 'shoe kid1.jpg', 'ali.zaitoun1999@gmail.com', 131),
-(26, 'Shirts', '30', 'shirts6.jpg', '21830424@students.liu.edu.lb', 92),
-(27, 'T-Shirt Man', '44', 'blue-sweatshirt1.jpg', '21830424@students.liu.edu.lb', 105);
+(25, 'Shoes Kids1', '150', 'shoe kid1.jpg', 'ali.zaitoun1999@gmail.com', 131);
 
 --
 -- Indexes for dumped tables
