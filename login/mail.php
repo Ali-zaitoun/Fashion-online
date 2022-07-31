@@ -18,8 +18,8 @@ require 'vendor/autoload.php';
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'ali.zaiton2005@gmail.com';                     // SMTP username
-    $mail->Password   = 'Godparent';                               // SMTP password
+    $mail->Username   = '<put you eamil here>';                     // SMTP username
+    $mail->Password   = '<put APP password>';                               // SMTP password
     $mail->SMTPSecure = 'ssl';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
